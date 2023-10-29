@@ -5,10 +5,13 @@ from dumbsquare.core import cube
 
 class TestCore(unittest.TestCase):
     """ Unittest class """
-
     def test_float(self):
         """ Test for square function """
-        self.assertAlmostEqual(cube(2.),4)
+        self.assertAlmostEqual(square(2.),4)
+
+    def test_float_cube(self):
+        """ Test for cube function """
+        self.assertAlmostEqual(cube(2.),8)
 
 if __name__=='__main__':
     unittest.main()
