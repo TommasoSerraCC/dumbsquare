@@ -4,4 +4,4 @@ def square(x):
 
 def cube(y):
     """ Module that returns the cube """
-    return x**3.
+    return y**3.
