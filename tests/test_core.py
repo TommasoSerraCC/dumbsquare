@@ -1,6 +1,7 @@
 """ Importing module for unit testing"""
 import unittest
 from dumbsquare.core import square
+from dumbsquare.core import cube
 
 class TestCore(unittest.TestCase):
     """ Unittest class """
