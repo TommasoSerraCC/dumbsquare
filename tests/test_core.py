@@ -9,5 +9,9 @@ class TestCore(unittest.TestCase):
         """ Test for square function """
         self.assertAlmostEqual(square(2.),4)
 
+    def test_float_cube(self):
+        """ Test for cube function """
+        self.assertAlmostEqual(square(2.),8)
+
 if __name__=='__main__':
     unittest.main()
